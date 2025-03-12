@@ -1,11 +1,10 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import FeatureCard from '@/components/FeatureCard';
 import CourseCard from '@/components/CourseCard';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, BookOpen, Calendar, Certificate, Headphones, MessageSquare, Video } from 'lucide-react';
+import { ArrowRight, BookOpen, Calendar, Award, Headphones, MessageSquare, Video } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Index = () => {
@@ -57,7 +56,7 @@ const Index = () => {
               delay={400}
             />
             <FeatureCard
-              icon={<Certificate size={24} />}
+              icon={<Award size={24} />}
               title="Expert Tutors"
               description="Learn from certified instructors with extensive experience in IELTS preparation."
               delay={500}
